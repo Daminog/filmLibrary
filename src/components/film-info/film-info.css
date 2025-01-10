@@ -1,0 +1,35 @@
+.film__title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.film__wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.film__description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.film__description-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 8px
+}
+
+.film__poster {
+    border-radius: 8px;
+}
+
+.film__plot {
+    font-size: 18px;
+}
+
+.film__favorite {
+    
+}

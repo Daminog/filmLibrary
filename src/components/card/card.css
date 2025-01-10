@@ -1,0 +1,75 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    max-width: 1800px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+
+.card__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.image__wrapper {
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: flex-end;;
+    background-color: var(--gray);
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card__info{
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    background: var(--black);
+    color: var(--white);
+    padding: 10px;
+    min-height: 150px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card__footer {
+    margin-top: auto;
+    display: flex;
+    gap: 50px    
+}
+
+.button__add {
+    border-radius: 6px;
+    width: 35px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+
+.button__active {
+    background: var(--white);
+}
+
+.button__film {
+    display: flex;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--white);
+}
+
+.button__film:visited {
+    color: var(--white)
+}

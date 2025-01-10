@@ -1,0 +1,25 @@
+{
+  "name": "filmLibrary",
+  "version": "1.0.0",
+  "description": "film library",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damir",
+  "license": "ISC",
+  "dependencies": {
+    "on-change": "^5.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.13.0",
+    "rollup": "^4.28.1",
+    "rollup-plugin-import-css": "^3.5.7"
+  }
+}

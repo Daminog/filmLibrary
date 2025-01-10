@@ -1,0 +1,21 @@
+.card__list-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.card__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+    
+}
+
+.card__list h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
